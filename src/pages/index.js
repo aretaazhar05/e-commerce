@@ -30,8 +30,8 @@ const IndexPage = () => {
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
-        image={'/banner1.png'}
-        title={'Essentials for a cold winter'}
+        image={'/kasur.jpg'}
+        title={'ORTOPEDIC'}
         subtitle={'Discover Autumn Winter 2021'}
         ctaText={'shop now'}
         ctaAction={goToShop}
@@ -75,12 +75,12 @@ const IndexPage = () => {
       <div className={styles.highlightContainer}>
         <Container size={'large'} fullMobile>
           <Highlight
-            image={'/highlight.png'}
-            altImage={'highlight image'}
-            miniImage={'/highlightmin.png'}
-            miniImageAlt={'mini highlight image'}
-            title={'Luxury Knitwear'}
-            description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
+            image={'https://sleepandco.id/wp-content/uploads/2025/02/Serta-Alphine-II.jpg'}
+            altImage={'https://sleepandco.id/wp-content/uploads/2025/02/Serta-Alphine-II.jpg'}
+            miniImage={'https://sleepandco.id/wp-content/uploads/2025/02/Serta-Alphine-I.jpg'}
+            miniImageAlt={'https://sleepandco.id/wp-content/uploads/2025/02/Serta-Alphine-I.jpg'}
+            title={'Sertamotion® + Alpine™'}
+            description={`Konsep tidur inovatif dengan teknologi termutakhir yang meningkatkan kualitas kenyamanan Anda. Pengaturan posisi kepala dan kaki, yang dipadukan dengan mode Zero Gravity dan Anti-Snore, dirancang untuk menopang tubuh secara optimal sambil meredakan tekanan dan menyempurnakan kualitas tidur Anda. Fitur-fitur modern seperti Under-Bed LED Lighting, Wireless Remote, dan Charging Station menghadirkan ketenangan dan kenyamanan yang menciptakan suasana ideal untuk relaksasi. Sertamotion® adalah sebuah inovasi yang memberikan Anda kebebasan untuk beristirahat dengan nyaman sesuai dengan gaya hidup Anda.`}
             textLink={'shop now'}
             link={'/shop'}
           />
@@ -99,7 +99,7 @@ const IndexPage = () => {
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'about ORTOPEDIC'}
         quote={
           '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
         }

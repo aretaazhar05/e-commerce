@@ -21,7 +21,7 @@ const Blog = (props) => {
         <span>Share with:</span>
         <div className={styles.socialMediaListContainer}>
           <div className={styles.socialMediaIconContainer}>
-            <Icon symbol={'twitterinverse'}></Icon>
+            <Icon symbol={'instagram'}></Icon>
           </div>
           <div className={styles.socialMediaIconContainer}>
             <Icon symbol={'facebookinverse'}></Icon>

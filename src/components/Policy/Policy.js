@@ -5,56 +5,21 @@ const Policy = (props) => {
   return (
     <div className={styles.root}>
       <div className={styles.section}>
-        <h3>1. Lorem Ipsum</h3>
+        <h3>Kebijakan Privasi</h3>
         <p>
-          Delaware limited liability company (The Sydney) collects personal
-          information that you voluntarily provide when applying or registering
-          for an account with The Upside or making a purchase on The Upside
-          website; www.theupside.com (the Website).
-        </p>
-        <p>
-          This Privacy Policy (Privacy Policy) outlines how your information is
-          collected, used and disclosed when you access or use our Services as
-          defined in our Terms. This information is collected, used and
-          disclosed in accordance with the Privacy Act 1988 (Cth) (Privacy Act).{' '}
-        </p>
-        <p>
-          This Privacy Policy is incorporated by reference into our Terms. Any
-          capitalized terms not defined in this Policy are defined in the Terms.
-          You agree to comply with all Terms when accessing or using our
-          Services, including this Privacy Policy.
+          Website Sleep & Co dimiliki oleh PT. Duta Abadi Primantara yang akan menjadi pengontrol atas data pribadi Anda. Kami telah mengadopsi Kebijakan Privasi ini untuk menjelaskan bagaimana kami memproses informasi yang dikumpulkan oleh Sleep & Co, yang juga menjelaskan alasan mengapa kami perlu mengumpulkan data pribadi tertentu tentang Anda. Oleh karena itu, Anda harus membaca Kebijakan Privasi ini sebelum menggunakan website Sleep & Co. Kami menjaga data pribadi Anda dan berjanji untuk menjamin kerahasiaan dan keamanannya..
         </p>
       </div>
 
       <div className={styles.section}>
-        <h3>2. Lorem Ipsum</h3>
+        <h3>Informasi pribadi yang kami kumpulkan :</h3>
         <p>
-          Our Services, including but not limited to the registration of an
-          account with us or placing of an order, is not intended to be used by
-          children under the age of 13. When a visitor indicates an age under
-          13, the registration process for The Upside website cannot be
-          completed, and no personally identifying information is collected in
-          conjunction with that attempted submission except that we retain
-          e-mail addresses of such persons (and record of access attempts) for
-          purposes of denying registration. Otherwise, we do not knowingly
-          collect personally identifiable information from visitors under the
-          age of 13.
-        </p>
-        <p>
-          If you are under 18, any use of our Services must be with the
-          involvement of a parent or guardian. By accessing or using our
-          Website, you warrant and represent to us that you are over the age of
-          18 years and you have the right, authority and legal capacity to enter
-          into a legally binding agreement and to abide by this Privacy Policy.{' '}
-        </p>
-        <p>
-          The Upside collects, uses and discloses information regarding users
-          aged 13-18 in the same manner as it does for adults.{' '}
+Saat Anda mengunjungi Sleep & Co, kami secara otomatis mengumpulkan informasi tertentu mengenai perangkat Anda, termasuk informasi tentang browser web, alamat IP, zona waktu, dan sejumlah cookie yang terinstal di perangkat Anda. Selain itu, selama Anda menjelajahi Website, kami mengumpulkan informasi tentang setiap halaman web atau produk yang Anda lihat, website atau istilah pencarian apa yang mengarahkan Anda ke Website, dan cara Anda berinteraksi dengan Website. Kami menyebut informasi yang dikumpulkan secara otomatis ini sebagai “Informasi Perangkat”. Kemudian, kami mungkin akan mengumpulkan data pribadi yang Anda berikan kepada kami (termasuk pada, Nama, Nama belakang, Alamat, informasi pembayaran, dll.) selama pendaftaran untuk dapat memenuhi perjanjian.
         </p>
       </div>
 
       <div className={styles.section}>
-        <h3>3. Lorem Ipsum</h3>
+        <h3>Mengapa kami memproses data Anda ?</h3>
         <p>
           You must only use our Services in accordance with this Privacy Policy
           and any applicable law or regulations. You agree to refrain from

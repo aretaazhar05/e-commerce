@@ -62,7 +62,7 @@ const HowToUsePage = (props) => {
               </Button>
               <img
                 alt={'JAMM Detail'}
-                src={toOptimizedImage('/how-to-use/jamm-sydney-1upd@2x.png')}
+                src={toOptimizedImage('/how-to-use/jamm--1upd@2x.png')}
                 style={{ display: 'block', height: 'auto' }}
               />
             </div>
