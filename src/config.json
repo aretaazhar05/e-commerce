@@ -30,7 +30,7 @@
           "link": "/about"
         },
         {
-          "text": "Journal",
+          "text": "BLOG",
           "link": "/blog"
         },
         {
@@ -128,7 +128,7 @@
       ]
     },
     {
-      "menuLabel": "journal",
+      "menuLabel": "BLOG",
       "menuLink": "/blog",
       "category": null
     },
