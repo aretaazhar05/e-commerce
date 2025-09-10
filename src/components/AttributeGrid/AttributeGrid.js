@@ -23,25 +23,59 @@ const AttributeGrid = (props) => {
 <Attribute
   icon={
     <img
-      src="https://sleepandco.id/wp-content/uploads/2024/12/Group-176276.svg"   // taruh file di folder public/free-ongkir.png
-      alt="Free Ongkir"
+      src="https://sleepandco.id/wp-content/uploads/2024/12/Group-176272-1.svg"   // taruh file di folder public/free-ongkir.png
+      alt="Sales Ahli Berpengalaman"
       style={{ width: 50, height: 50 }}
     />
   }
-  title="Free Ongkir"
-  subtitle="Klik untuk info lebih lanjut"
+  title="Sales Ahli Berpengalaman"
+  subtitle="Tim ORTO Experts kami siap membantu Anda menemukan kasur terbaik."
 />
 
-      <Attribute
-        icon={'cycle'}
-        title={'returns'}
-        subtitle={'Return goods in 30 days'}
-      />
-      <Attribute
-        icon={'creditcard'}
-        title={'secured payment'}
-        subtitle={'Shop safely'}
-      />
+<Attribute
+  icon={
+    <img
+      src="https://sleepandco.id/wp-content/uploads/2024/12/Group-176276.svg"   // taruh file di folder public/free-ongkir.png
+      alt="Sales Ahli Berpengalaman"
+      style={{ width: 50, height: 50 }}
+    />
+  }
+  title="Gratis Pengiriman"
+  subtitle="Nikmati pengiriman ke rumah Anda secara gratis atau dengan harga terjangkau."
+/>
+<Attribute
+  icon={
+    <img
+      src="https://sleepandco.id/wp-content/uploads/2024/12/Group-176275-1.svg"   // taruh file di folder public/free-ongkir.png
+      alt="Sales Ahli Berpengalaman"
+      style={{ width: 50, height: 50 }}
+    />
+  }
+  title="Koleksi Premium"
+  subtitle="ORTOPEDIC. hanya menghadirkan brand‐brand tidur premium terpilih untuk memastikan setiap produk menawarkan kualitas terbaik."
+/>
+<Attribute
+  icon={
+    <img
+      src="https://sleepandco.id/wp-content/uploads/2024/12/Group-176274-1.svg"   // taruh file di folder public/free-ongkir.png
+      alt="Sales Ahli Berpengalaman"
+      style={{ width: 50, height: 50 }}
+    />
+  }
+  title="Garansi 10 Tahun"
+  subtitle="Kami siap memberikan garansi 10 tahun jika ada masalah dengan produk Anda."
+/>
+<Attribute
+  icon={
+    <img
+      src="https://sleepandco.id/wp-content/uploads/2024/12/Frame-1000003942.svg"   // taruh file di folder public/free-ongkir.png
+      alt="Sales Ahli Berpengalaman"
+      style={{ width: 50, height: 50 }}
+    />
+  }
+  title="Jaminan Kualitas Terbaik"
+  subtitle="Setiap matras dan bedding ORTOPEDIC. terkurasi dengan baik untuk menjamin kenyamanan."
+/>
     </div>
   );
 };
