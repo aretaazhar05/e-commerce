@@ -69,10 +69,9 @@ const Footer = (prop) => {
             })}
             <div className={styles.newsLetter}>
               <div className={styles.newsLetterContent}>
-                <span className={styles.linkTitle}>Newsletter</span>
+                <span className={styles.linkTitle}>ORTOPEDIC</span>
                 <p className={styles.promoMessage}>
-                  Get 15% off your first purchase! Plus, be the first to know
-                  about sales, new product launches and exclusive offers!
+                 ORTOPEDIC. Kami menghadirkan pengalaman belanja untuk kebutuhan tidur Anda, dari pilihan kasur terbaik hingga ragam perlengkapan tidur yang lengkap.
                 </p>
                 <form
                   className={styles.newsLetterForm}

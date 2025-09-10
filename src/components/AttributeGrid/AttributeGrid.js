@@ -11,12 +11,12 @@ const AttributeGrid = (props) => {
   icon={
     <img
       src="https://sleepandco.id/wp-content/uploads/2024/12/Group-176271.svg"   // taruh file di folder public/free-ongkir.png
-      alt="Free Ongkir"
+      alt="Cicilan 0%"
       style={{ width: 50, height: 50 }}
     />
   }
-  title="Free Ongkir"
-  subtitle="Klik untuk info lebih lanjut"
+  title="Cicilan 0%"
+  subtitle="Dapatkan kasur impian tanpa beban anggaran dengan cicilan 0% dengan kartu kredit."
 />
 
 
