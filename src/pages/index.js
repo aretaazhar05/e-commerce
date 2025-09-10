@@ -131,13 +131,13 @@ const IndexPage = () => {
       <div className={styles.socialContainer}>
         <Title
           name={'Styled by You'}
-          subtitle={'Tag @sydney to be featured.'}
+          subtitle={'Tag @ORTOPEDIC to be featured.'}
         />
         <div className={styles.socialContentGrid}>
-          <img src={toOptimizedImage(`/social/socialMedia1.png`)} alt={'social media 1'} />
-          <img src={toOptimizedImage(`/social/socialMedia2.png`)} alt={'social media 2'} />
-          <img src={toOptimizedImage(`/social/socialMedia3.png`)} alt={'social media 3'} />
-          <img src={toOptimizedImage(`/social/socialMedia4.png`)} alt={'social media 4'} />
+          <img src={toOptimizedImage(`https://sleepandco.id/wp-content/uploads/2025/07/Tempur-pro-plus-firm-02.jpg`)} alt={'social media 1'} />
+          <img src={toOptimizedImage(`https://sleepandco.id/wp-content/uploads/2025/02/Serta-Alphine-II.jpg`)} alt={'social media 2'} />
+          <img src={toOptimizedImage(`https://sleepandco.id/wp-content/uploads/2025/07/Sertamotion%C2%AE-Sertamotion%C2%AE-Bed-Frame%E2%84%A2-Alpine%E2%84%A2.png`)} alt={'social media 3'} />
+          <img src={toOptimizedImage(`https://sleepandco.id/wp-content/uploads/2025/07/Tempur-form-ultra-firm-05.jpg`)} alt={'social media 4'} />
         </div>
       </div>
       <AttributeGrid />
