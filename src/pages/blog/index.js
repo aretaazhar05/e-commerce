@@ -5,7 +5,6 @@ import BlogPreviewGrid from '../../components/BlogPreviewGrid';
 import Container from '../../components/Container';
 import Hero from '../../components/Hero';
 import Layout from '../../components/Layout/Layout';
-import ThemeLink from '../../components/ThemeLink';
 
 import { generateMockBlogData } from '../../helpers/mock';
 import * as styles from './index.module.css';
@@ -21,43 +20,8 @@ const BlogPage = (props) => {
           maxWidth={'400px'}
           image={toOptimizedImage('/blogCover.png')}
           title={`The new standard of Closing`}
-          ctaLink={'read story'}
           ctaTo={'/blog/sample'}
-          header={'design'}
         />
-
-        <div className={styles.navContainer}>
-          <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
-          >
-            All Posts
-          </ThemeLink>
-          <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
-          >
-            Design
-          </ThemeLink>
-          <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
-          >
-            Collaboration
-          </ThemeLink>
-          <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
-          >
-            Interview
-          </ThemeLink>
-          <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
-          >
-            News
-          </ThemeLink>
-        </div>
 
         {/* Blog Grid */}
         <div className={styles.blogsContainer}>

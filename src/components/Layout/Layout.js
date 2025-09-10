@@ -1,5 +1,5 @@
 import React from 'react';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
 
 import Header from '../Header';
@@ -13,6 +13,9 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
   return (
     <>
       <Helmet>
+        <title>Website Saya</title>
+        <link rel="icon" href="/icon.png" type="image/png" />
+
         {/* Add any sitewide scripts here */}
         <link
           rel="stylesheet"
@@ -22,7 +25,7 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
         <link
           rel="stylesheet"
           type="text/css"
-          charset="UTF-8"
+          charSet="UTF-8"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
         />
       </Helmet>
