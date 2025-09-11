@@ -13,7 +13,7 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
   return (
     <>
       <Helmet>
-        <title>Website Saya</title>
+        <title>ORTOPEDIC</title>
         <link rel="icon" href="/icon.png" type="image/png" />
 
         {/* Add any sitewide scripts here */}

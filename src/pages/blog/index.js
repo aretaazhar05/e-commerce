@@ -20,7 +20,7 @@ const BlogPage = (props) => {
           maxWidth={'400px'}
           image={toOptimizedImage('/blogCover.png')}
           title={`The new standard of Closing`}
-          ctaTo={'/blog/sample'}
+          ctaTo={'/blog/'}
         />
 
         {/* Blog Grid */}
