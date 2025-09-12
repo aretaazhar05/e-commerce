@@ -13,40 +13,23 @@ const SamplePage = (props) => {
         <Container>
           <div className={styles.blogContainer}>
             <Blog
-              title={'Friends of Sydney: Flora Fricker'}
+              title={'TIPS MEMILIH KASUR YANG NYAMAN AGAR TIDUR LEBIH BERKUALITAS'}
               image={'/blogFeatured.png'}
               alt={''}
             >
+              {/* paragraf pembuka */}
               <div className={styles.content}>
                 <p className={styles.excerpt}>
-                  London-based floral designer Flora Fricker champions seasonal
-                  British flowers and UK producers in her beautiful and
-                  sustainable creations. This season, we worked with Flora to
-                  style Sunspel stores for Christmas, for which she produced
-                  eye-catching sustainably sourced wreaths.
-                </p>
-                <p className={styles.blogParagraph}>
-                  Delaware limited liability company (The Sydney) collects
-                  personal information that you voluntarily provide when
-                  applying or registering for an account with The Upside or
-                  making a purchase on The Upside website; www.theupside.com
-                  (the Website).
-                </p>
-                <p className={styles.blogParagraph}>
-                  This Privacy Policy (Privacy Policy) outlines how your
-                  information is collected, used and disclosed when you access
-                  or use our Services as defined in our Terms. This information
-                  is collected, used and disclosed in accordance with the
-                  Privacy Act 1988 (Cth) (Privacy Act).
-                </p>
-                <p className={styles.blogParagraph}>
-                  This Privacy Policy is incorporated by reference into our
-                  Terms. Any capitalized terms not defined in this Policy are
-                  defined in the Terms. You agree to comply with all Terms when
-                  accessing or using our Services, including this Privacy
-                  Policy.
+                  Tidur yang nyenyak adalah kunci untuk menjaga kesehatan tubuh dan pikiran.
+                  Namun, kualitas tidur tidak hanya ditentukan oleh lamanya waktu istirahat,
+                  tetapi juga oleh kenyamanan kasur yang digunakan. Kasur yang tepat dapat
+                  membantu tubuh lebih rileks, mengurangi rasa pegal, dan membuat tidur terasa
+                  lebih pulas. Agar tidak salah pilih, berikut beberapa tips memilih kasur yang
+                  nyaman untuk menunjang tidur Anda.
                 </p>
               </div>
+
+              {/* gambar */}
               <div className={styles.imagesContainer}>
                 <div className={styles.imageContainer}>
                   <img src={toOptimizedImage('/cloth.png')} alt={'sample1'} />
@@ -55,34 +38,66 @@ const SamplePage = (props) => {
                   <img src={toOptimizedImage('/collections/collection1.png')} alt={'sample2'} />
                 </div>
               </div>
+
+              {/* konten tips */}
               <div className={styles.content}>
-                <h2 className={styles.blogSubHeader}>2. Lorem ipsum</h2>
+                <h2 className={styles.blogSubHeader}>1. Sesuaikan dengan Kebutuhan Tubuh</h2>
                 <p className={styles.blogParagraph}>
-                  Our Services, including but not limited to the registration of
-                  an account with us or placing of an order, is not intended to
-                  be used by children under the age of 13. When a visitor
-                  indicates an age under 13, the registration process for The
-                  Upside website cannot be completed, and no personally
-                  identifying information is collected in conjunction with that
-                  attempted submission except that we retain e-mail addresses of
-                  such persons (and record of access attempts) for purposes of
-                  denying registration. Otherwise, we do not knowingly collect
-                  personally identifiable information from visitors under the
-                  age of 13.
-                </p>
-                <p className={styles.blogParagraph}>
-                  If you are under 18, any use of our Services must be with the
-                  involvement of a parent or guardian. By accessing or using our
-                  Website, you warrant and represent to us that you are over the
-                  age of 18 years and you have the right, authority and legal
-                  capacity to enter into a legally binding agreement and to
-                  abide by this Privacy Policy.
-                </p>
-                <p className={styles.blogParagraph}>
-                  The Upside collects, uses and discloses information regarding
-                  users aged 13-18 in the same manner as it does for adults.
+                  Setiap orang memiliki preferensi tidur yang berbeda. Ada yang lebih nyaman
+                  menggunakan kasur empuk, ada pula yang menyukai kasur sedikit keras untuk
+                  menopang tulang belakang. Jika Anda sering mengalami sakit punggung, pilihlah
+                  kasur dengan tingkat kekerasan medium agar tetap nyaman sekaligus memberikan
+                  support yang baik.
                 </p>
               </div>
+
+              <div className={styles.content}>
+                <h2 className={styles.blogSubHeader}>2. Perhatikan Ukuran Kasur</h2>
+                <p className={styles.blogParagraph}>
+                  Ukuran kasur sangat memengaruhi kenyamanan tidur. Jika tidur sendirian, kasur
+                  ukuran single atau twin sudah cukup. Namun, untuk pasangan atau keluarga kecil,
+                  kasur ukuran queen atau king lebih ideal agar ruang gerak tidak terbatas.
+                  Pastikan juga ukuran kasur sesuai dengan luas kamar tidur.
+                </p>
+              </div>
+                            <div className={styles.content}>
+                <h2 className={styles.blogSubHeader}>3. Pilih Bahan dan Kualitas Kasur</h2>
+                <p className={styles.blogParagraph}>
+                  Material kasur juga sangat memengaruhi kenyamanan tidur. Kasur busa memberikan
+                  rasa empuk, sementara kasur pegas (spring bed) biasanya lebih awet dan memiliki
+                  daya pantul yang baik. Untuk pilihan yang lebih sehat, pertimbangkan kasur lateks
+                  alami yang tahan lama serta anti tungau.
+                </p>
+              </div>
+
+              <div className={styles.content}>
+                <h2 className={styles.blogSubHeader}>4. Coba Kasur Sebelum Membeli</h2>
+                <p className={styles.blogParagraph}>
+                  Jangan ragu untuk mencoba berbaring di kasur sebelum membelinya. Luangkan waktu
+                  beberapa menit untuk merasakan apakah kasur tersebut nyaman dan sesuai dengan
+                  postur tubuh Anda. Hal ini penting agar tidak menyesal setelah membeli.
+                </p>
+              </div>
+
+              <div className={styles.content}>
+                <h2 className={styles.blogSubHeader}>5. Perhatikan Sirkulasi Udara</h2>
+                <p className={styles.blogParagraph}>
+                  Kasur yang baik seharusnya memiliki sirkulasi udara yang baik sehingga tidak
+                  membuat tubuh gerah saat tidur. Beberapa kasur modern dilengkapi dengan teknologi
+                  cooling foam atau lapisan khusus yang membantu menjaga suhu tetap sejuk.
+                </p>
+              </div>
+
+              <div className={styles.content}>
+                <h2 className={styles.blogSubHeader}>6. Sesuaikan dengan Anggaran</h2>
+                <p className={styles.blogParagraph}>
+                  Kasur berkualitas memang merupakan investasi jangka panjang untuk kesehatan Anda.
+                  Namun, pilihlah kasur yang sesuai dengan kemampuan finansial. Jangan hanya
+                  tergiur harga mahal, pastikan kualitasnya sebanding dengan kebutuhan dan budget
+                  Anda.
+                </p>
+              </div>
+
             </Blog>
           </div>
         </Container>
