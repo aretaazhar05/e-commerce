@@ -44,7 +44,7 @@ const ShopPage = (props) => {
         </Container>
         <Banner
           maxWidth={'650px'}
-          name={`Woman's Sweaters`}
+          name={`Kasur`}
           subtitle={
             'Look to our women’s sweaters for modern takes on one-and-done dressing. From midis in bold prints to dramatic floor-sweeping styles and easy all-in-ones, our edit covers every mood.'
           }
@@ -79,11 +79,11 @@ const ShopPage = (props) => {
             <Chip name={'S'} />
           </div>
           <div className={styles.productContainer}>
-            <span className={styles.mobileItemCount}>476 items</span>
+            <span className={styles.mobileItemCount}>10 items</span>
             <ProductCardGrid data={data}></ProductCardGrid>
           </div>
           <div className={styles.loadMoreContainer}>
-            <span>6 of 456</span>
+            <span>1 of 10</span>
             <Button fullWidth level={'secondary'}>
               LOAD MORE
             </Button>
